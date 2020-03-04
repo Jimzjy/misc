@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 40px solid gray;
+  margin: 0 30px;
+}
+.arrow-right:active {
+  opacity: 0.6;
+}
+
+.color-input {
+  width: 40px;
+}
