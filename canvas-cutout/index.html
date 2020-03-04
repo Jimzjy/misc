@@ -10,7 +10,7 @@
 <body>
   <canvas id="img-canvas" width="0" height="200" style="display: none;"></canvas>
   <label for="img-input">img: </label>
-  <input id="img-input" type="file" accept="image/" onchange="onPreImageUpload()"/>
+  <input id="img-input" type="file" accept="image/*" onchange="onPreImageUpload()"/>
   <div class="wrapper">
     <img id="img-pre" src="" height="200"/>
     <div class="arrow-right" style="display: none;" onclick="onArrowClick()"></div>

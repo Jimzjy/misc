@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./index.js"></script>
+  <link rel="stylesheet" type="text/css" href="./index.css" />
+  <title>canvas-cutout-video</title>
+</head>
+<body>
+  <label for="video-input">video: </label>
+  <input id="video-input" type="file" accept="video/*" onchange="onUpload()"/>
+  <div class="wrapper">
+    <video id="video-pre" src="./video0.mp4" height="200" autoplay muted loop/></video>
+    <canvas id="video-after" height="200"/>
+  </div>
+  <div>
+    R: <input class="color-input" type="number" /> to <input class="color-input" value="40" type="number"/> 
+  </div>
+  <div>
+    G: <input class="color-input" type="number"/> to <input class="color-input" value="40" type="number"/> 
+  </div>
+  <div>
+    B: <input class="color-input" type="number"/> to <input class="color-input" value="40" type="number"/> 
+  </div>
+</body>
+</html>
